@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scoore keeper Of foot player</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">	
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="cont">
+		<h1><strong>My Score Keeper</strong></h1>
+
+		<h3><big>Score: </big><span id="Score1">0 </span> to <span id="Score2">0</span></h3>
+		<div class="form-group">
+			<button type="submit" class="btn btn-default" id="ctrl1">player 1</button>
+			<button type="submit" class="btn btn-default" id="ctrl2">player 2</button>
+			<button class="btn btn-danger" id="reset">reset</button>
+		</div>
+		<div class="form-group num">
+			<P>Set the limit of winner must take in order to win game:</P><input type="number" name="limit" id="limit" value="5" class="form-control">
+		</div>
+		<h3>The Winner is: <span id="Winner"></span></h3>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

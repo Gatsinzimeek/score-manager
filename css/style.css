@@ -1,0 +1,24 @@
+.cont{
+text-align: center;
+margin-left: 35%;
+margin-top: 15%;
+margin-right: 30%;
+color: white;
+}
+
+body{
+	background: url('../img/nba.jpg');
+	background-size: cover;
+}
+
+html{
+	height: 100%;
+}
+
+.green{
+	color: green;
+}
+
+.form-group p{
+	font-size: 20px;
+}
